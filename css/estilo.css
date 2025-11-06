@@ -285,7 +285,7 @@ footer{
 
 /* MEDIA QUERYS */
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
     
     main{
         width: 100%;
@@ -569,5 +569,6 @@ footer{
 
     
 }
+
 
 
