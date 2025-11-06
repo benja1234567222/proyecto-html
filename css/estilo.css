@@ -1,0 +1,573 @@
+
+html { Font-size: 62.5%; }
+body { Font-size: 16px;}
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+   
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.oswald-uniquifier {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0);
+    
+}
+
+
+.header1{
+    padding-left: 40%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+    
+}
+
+nav{
+    padding-top: 2.5rem;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    
+    
+}
+.navs{
+    font-size: 2rem
+}
+
+menu{
+    display: flex;
+    background-color: #ff000000;
+    padding: 0.25rem;
+    overflow-y: scroll;
+    justify-content: center;
+    flex-direction:row;
+    justify-content:space-evenly;
+    width: 100%;
+    border-radius: 10rem;
+    height: 6rem;
+    
+}
+
+#div1{
+    background-color: rgba(255, 255, 255, 0.616);
+    height: 5rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 1rem;
+    border-style: solid;
+}
+#div2{
+    background-color: rgba(255, 255, 255, 0.616);
+    height: 5rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 1rem;
+    border-style: solid;
+}
+#div3{
+    background-color: rgba(255, 255, 255, 0.616);
+    height: 5rem;
+    width: 15rem;
+    text-align: center; 
+    border-radius: 1rem;
+    border-style: solid;
+}
+
+
+#div1:hover{
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+#div2:hover{
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+#div3:hover{
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.1);
+} 
+
+a:focus{
+    color: red;
+    
+}
+
+a{
+    color: black;
+}
+
+main{
+    width: 100%;
+    height: 140rem;
+}
+
+.principal{
+
+    background-color: rgba(255, 255, 255, 0.438);
+    padding-top: 4rem;
+    width: 80rem;
+    height: 100rem;
+    margin-left: 30%;
+    margin-top: 8rem;
+    text-align: center;
+    border-radius: 3rem;
+    border-style: solid ;
+    
+}
+
+#parte1medio{
+    background-color: rgba(0, 0, 255, 0);
+    width: 100%;
+    height: 50.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#parte2medio{
+    background-color: rgba(0, 255, 255, 0);
+    height: 45rem;
+    width: 45rem;
+
+}
+#parte1medio3{
+    background-color: rgba(255, 235, 205, 0);
+    height: 40rem;
+    width: 35rem;
+    margin-left: 45.5rem;
+    margin-top: -35rem;
+    padding-top: 6rem;
+}
+
+.parte1medio3 .otrapagina{
+    font-size: 10rem;
+    color: aquamarine;
+}
+#parte1medio2{
+    background-color: rgba(240, 255, 255, 0);
+    width: 45rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4rem;
+
+}
+#curiosidadDisenio{
+    background-color:ghostwhite;
+    height: 6rem;
+    width:45rem ;
+    border-radius: 20rem;
+    border-style: dashed;
+}
+
+#parte2medio2{
+    background-color: burlywood;
+    width: 40rem;
+    height: 40rem;
+
+}
+#curiosidad1{
+    background-color: rgba(2, 109, 7, 0.452);
+    width: 45rem;
+    height: 20rem;
+    border-radius: 2rem;
+
+}
+#curiosidad2{
+    background-color: rgba(184, 156, 0, 0.432);
+    width: 45rem;
+    height: 20rem;
+    border-radius: 2rem;
+
+}
+
+#parte1{
+    background-color: rgba(94, 255, 0, 0);
+    width: 48rem;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+}
+
+#parte2{
+    background-color: rgba(106, 171, 255, 0.719);
+    width: 30rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6rem;
+    margin-right: 2rem;
+    border-style:dashed;
+    border-color: rgba(0, 0, 0, 0.425);
+}
+
+#lista{
+    background-color: rgba(0, 255, 170, 0);
+    width: 30rem;
+    height: 30rem;
+}
+
+#imagenpou{
+    background-color: rgba(167, 179, 8, 0.589);
+    width: 30rem ;
+    height: 30rem;
+    margin-top: 6rem;
+    padding-top: 6rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.425);
+
+}
+
+.titulocuriosidad{
+    font-size: 2.5rem;
+    padding-right: 20rem;
+}
+.letracuriosidad{
+    padding-right: 20rem;
+    font-size: 2rem;
+}
+
+
+footer{
+
+    background-color: rgba(43, 43, 43, 0.76);
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+    border-style:groove;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footercosas{
+    color: aliceblue;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    
+}
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 768px){
+    
+    main{
+        width: 100%;
+        
+    }
+    #parte2{
+        width: 80rem;
+        font-size: 2.5rem;
+        height: 70rem;
+
+    }
+    nav{
+        background-color: rgba(255, 238, 0, 0);
+        width: 109rem;
+        
+    }
+    #div1{
+        font-size: 2.5rem;
+        
+    }
+    #div2{
+        font-size: 2.5rem;
+    }
+    #div3{
+        font-size: 2.2rem;
+    }
+
+
+    .principal{
+        width: 100rem;
+        margin-left: 5rem;
+        height: 250rem;
+
+    }
+    #parte1medio{
+        height: 110rem;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        width: 100rem;
+    }
+
+    #imagenpou{
+        background-color: rgba(167, 179, 8, 0.589);
+        width: 30rem ;
+        height: 25rem;
+        margin-top: 6rem;
+        padding-top: 6rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.425);
+    
+    }
+    
+    
+    .pacifico-regular{
+        font-size: 4rem;
+    }
+
+    #parte2medio{
+        background-color: rgba(127, 255, 212, 0);
+        width: 100rem;
+    }
+
+    #parte1medio2{
+        display: flex;
+        align-items: center;
+        width: 100rem;
+        height: 70rem;
+        background-color: rgba(127, 255, 212, 0);
+    }
+
+    #curiosidadDisenio{
+        height: 10rem;
+        margin-top: 2rem;
+    }
+    
+    #curiosidad1{
+        width: 70rem;
+        height: 40rem;
+        margin-top: 2rem;
+        
+    }
+
+    #curiosidad2{
+        width: 70rem;
+        height: 40rem;
+        margin-top: 2rem;
+    }
+
+    .letracuriosidad{
+        padding-right: 20rem;
+        font-size: 3rem;
+    }
+    .titulocuriosidad{
+        font-size: 4rem;
+        padding-right: 20rem;
+    }
+
+
+
+
+
+
+    #parte1medio3{
+        background-color: rgba(255, 235, 205, 0);
+        height: 40rem;
+        width: 35rem;
+        margin-left: 30rem;
+        margin-top: 35rem;
+        padding-top: 6rem;
+    }
+
+    .otrapagina{
+        font-size:4rem
+    }
+
+    footer{
+        margin-top: 140rem;
+        width: 107rem;
+    }
+    .footercosas{
+        font-size: 3rem;
+    }
+}
+
+
+@media (max-width: 425px){
+
+    main{
+        width: 100%;
+        
+        
+    }
+    
+    .principal{
+        height: 430rem;
+    }
+    .archivo-black-regular{
+        font-size: 10rem;
+        
+    }
+    header{
+        background-color: rgba(0, 0, 255, 0);
+        width: 90rem;
+        height: 20rem;
+        
+    }
+    nav{
+        background-color: rgba(13, 156, 156, 0);
+        height: 50rem;
+        margin-bottom: 10rem;
+    }
+    .navs{
+        font-size: 7rem;
+    }
+    menu{
+        background-color: rgba(247, 231, 0, 0);
+        height: 55rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #div1{
+        margin-top: 5rem;
+        font-size: 5rem;
+        height: 20rem;
+        width: 45rem;
+        
+        
+        
+        
+    }
+
+    #div1 > a{
+        font-size: 5rem;
+    }
+    #div2{
+        margin-top: 5rem;
+        font-size: 5rem;
+        height: 20rem;
+        width: 45rem;
+       
+    }
+    #div3{
+        margin-top: 5rem;
+        font-size: 5rem;
+        height: 20rem;
+        width: 45rem;
+       
+    }
+
+    .pacifico-regular{
+        font-size: 6rem;
+    }
+    
+    #parte1medio{
+        height: 180rem;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        width: 100rem;
+    }
+    
+    #parte2{
+        width: 90rem;
+        font-size: 3.7rem;
+        height: 150rem;
+
+    }
+
+    
+    #parte2medio{
+    background-color: rgba(0, 255, 255, 0);
+    height: 130rem;
+    width: 100%;
+    }
+
+    #parte1medio2{
+        background-color: rgba(222, 184, 135, 0);
+        
+        height: 180rem;
+    }
+
+    #curiosidadDisenio{
+        height: 20rem;
+        width: 70rem;
+        
+    }
+    .pacifico-regular{
+        font-size: 12rem;
+    }
+
+    #curiosidad1{
+        width: 90rem;
+        height: 70rem;
+    }
+    .titulocuriosidad{
+        padding-right: 20rem;
+        font-size: 8rem;
+    }
+    .letracuriosidad{
+        padding-right: 20rem;
+        font-size: 7rem;
+
+    }
+
+    #curiosidad2{
+        width: 90rem;
+        height: 75rem;
+    }
+    
+    #parte1medio3{
+        background-color: rgba(255, 235, 205, 0);
+        height: 40rem;
+        width: 90rem;
+        margin-left: 5rem;
+        margin-top: 50rem;
+        padding-top: 6rem;
+    }
+
+
+    
+    .otrapagina{
+        font-size:8rem
+    }
+
+    footer{
+        margin-top: 300rem;
+        width: 107rem;
+        height: 120rem;
+    }
+    .footercosas{
+        padding-top: 50rem;
+        font-size: 7rem;
+        width: 107rem;
+       
+    }
+
+    
+}
+
+
